@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tbm"
+    android:background="#010B02"
+    app:logo="@drawable/baseline_menu_24">
+
+    <TextView
+        android:id="@+id/home"
+        android:text="Home"
+        android:textSize="25dp"
+        android:layout_marginStart="15dp"
+        android:textColor="#54D559"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/ab"
+        android:text="About"
+        android:textSize="25dp"
+        android:layout_marginStart="15dp"
+        android:textColor="#54D559"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/co"
+        android:text="Contact"
+        android:textSize="25dp"
+        android:layout_marginStart="15dp"
+        android:textColor="#54D559"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/log"
+        android:text="Logout"
+        android:textSize="25dp"
+        android:layout_marginStart="15dp"
+        android:textColor="#54D559"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</androidx.appcompat.widget.Toolbar>
